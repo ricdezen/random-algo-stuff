@@ -2,15 +2,6 @@
 
 Collection of coding interview problems found on [Byte by Byte](https://www.byte-by-byte.com/)
 
-### **Array Median**
-
-**Question**: Find the median of two sorted arrays.
-
-**Explanation**: Given an array of length `n`, its median is the `n/2` smallest element in the array
-if `n` is odd, and the average of the `n/2` and `(n-1)/2` elements if `n` is even.
-The two arrays are merged into one while keeping the ordering and then the median is computed on the
-resulting array.
-
 ### **Priority Queue**
 
 **Question**: Implement a Priority Queue.
@@ -93,4 +84,15 @@ But we are asked to do it iteratively. The algorithm requires us to:
 An alternative solution involves a stack: when you visit a node, put its right child at the top of
 the stack, then visit its left child. When no left child is found, pop the first node from the stack
 and visit that one.
+
+> **WARNING**: incomplete. Cuz it was hella boring honestly.
+
+### **Array Median**
+
+**Question**: Find the median of two sorted arrays.
+
+**Explanation**: Given an array of length `n`, its median is the `n/2` smallest element in the array
+if `n` is odd, and the average of the `n/2` and `(n-1)/2` elements if `n` is even.
+The two arrays are merged into one while keeping the ordering and then the median is computed on the
+resulting array.
 
